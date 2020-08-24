@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+<!--when you copy paste, do not copy paste the id.ID are unique and cannot have multiple.You will have problem when you wanna edit the name-->
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="450px"
+            android:layout_height="450px"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+
+
+            android:scaleType="centerInside"
+
+            app:srcCompat="@drawable/me" />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80px"
+            android:gravity="center"
+            android:text="Jack Tan Xin Jie"
+
+            android:textColor="#C11C1C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:gravity="center"
+            android:text="p1920709"
+            android:textColor="#C11C1C"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:gravity="center"
+            android:text="DCPE/FT/2B/22"
+            android:textColor="#C11C1C"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

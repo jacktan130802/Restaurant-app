@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">P1920709 Assignment</string>
+    <string-array name="name">
+        <item>Jake BBQ</item>
+        <item>Quan Ut Ut - Vo Van Kiet</item>
+        <item>3T Grill Restaurant</item>
+        <item>5ku Station</item>
+    </string-array>
+
+    <string-array name="Disc">
+
+
+    </string-array>
+    <string name="title_activity_location">Map</string>
+</resources>
